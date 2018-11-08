@@ -31,9 +31,9 @@ app.use((req, res, next) => {
     next();
 })
 
-app.use((req, res, next) => {
-    res.render("maintenance")
-})
+// app.use((req, res, next) => {
+//     res.render("maintenance")
+// })
 
 app.get('/', (req, res) => {
     res.render("home", {
